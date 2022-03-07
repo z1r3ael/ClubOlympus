@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/saveMember"
+        android:icon="@drawable/ic_round_save_24"
+        android:title="Save Member"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/deleteMember"
+        android:icon="@drawable/ic_round_delete_forever_24"
+        android:title="Delete Member"
+        app:showAsAction="never" />
+</menu>
